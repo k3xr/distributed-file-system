@@ -1,0 +1,5 @@
+#!/bin/sh
+
+set -x
+
+CLASSPATH=.:dfs_servidor.jar  rmiregistry $*
